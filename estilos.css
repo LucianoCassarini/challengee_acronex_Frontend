@@ -4,7 +4,9 @@
     box-sizing: border-box;
   }
   
- 
+ body{
+    background-color: #e4e4e4;
+ }
   
   
   header{
@@ -13,7 +15,7 @@
     max-height: 50px;
     clear: both;
     content: '';
-    display: table;
+    /* display: table; */
   }
   
   .menu{
@@ -36,22 +38,31 @@
     margin: 2.5px 0;
   }
 
-  #search_bar{
+
+  #search{
     width: 50%;
-    height: 37px;
-    margin: 6.5px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 3px;
+    display: flex;
+  }
+
+  #search_bar{
+    width: 90%;
+    height: 37px;
+    margin: 6.5px 0px 6.5px 0;
+    border-radius: 3px 0 0 3px;
     border: none;
   }
 
-  .submit_search{
-    background-image: url(Assets/search.svg);
-    background-position: right center;
-    background-repeat: no-repeat;
+  #lupita{
+    width: 8%;
+    height: 37px;
+    padding: 7px;
+    margin: 6.5px 0px 6.5px 0;
+    background-color: white;
     border: none;
+    border-radius: 0 3px 3px 0;
   }
 
   #perfil{
