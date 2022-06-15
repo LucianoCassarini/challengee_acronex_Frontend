@@ -79,8 +79,6 @@
 
   tr{
     width: 70%;
-    /* border: 10px; */
-    /* border-color: black; */
     background-color: #fff;
   }
   
@@ -134,3 +132,123 @@
   .true{
     background-color: #278e06;
   }
+
+  /* ====================================================================== */
+
+  .contenedor{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    margin-top: 40px;
+    border-radius: 5px;
+  }
+
+  .cabecera{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+
+  hr{
+    border-style: solid;
+    color: #c9c9c9;
+  }
+
+  #titulo_detalle{
+    font-size: 24px;
+    font-weight: lighter;
+    color: #3d3c3c;
+    margin: 20px;
+  }
+
+  #id_detalle{
+    font-size: 24px;
+    color: #8a8888;
+    margin: 20px;
+  }
+
+  .subtitulo_detalle{
+    font-size: 18px;
+    color: #3d3c3c;
+    margin: 20px 20px 5px;
+  }
+
+  #nombre_empresa{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #84849b;
+  }
+
+  .contenido_resumen{
+    margin: 5px 20px 30px 20px;
+    font-size: 16px;
+  }
+
+  #detalle_estado{
+    display: flex;
+    margin: 5px 20px;
+  }
+
+  #estado_text{
+    margin: 0 10px;
+    font-size: 16px;
+  }
+
+  .resumen{
+    width: 40%;
+  }
+
+  #contenido{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*--------- Tablas-------*/
+
+  #tablas_de_datos{
+    width: 60%;
+    /* display: flex; */
+    justify-content: right;
+  }
+
+  th{
+    background-color: #c9c9c9;
+  }
+
+  #tr_cabecera_tabla_datos{
+    height: 30px;
+  }
+
+  .tabla{
+    border: 1px solid #c9c9c9;
+    padding: 0;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px;
+  }
+
+  .separador{
+    width: 10%;
+  }
+
+  .td_dato{
+    text-align: right;
+    width: 45%;
+  }
+
+  .td_valor{
+    text-align: left;
+    width: 45%;
+  }
+
+
+  #tablas_de_datos td, tr{
+    height: 35px;
+  }
+
+
+
+
+
